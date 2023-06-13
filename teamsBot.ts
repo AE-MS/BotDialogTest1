@@ -127,11 +127,6 @@ export class TeamsBot extends TeamsActivityHandler {
   }
 
   override handleTeamsTaskModuleFetch(context: TurnContext, taskModuleRequest: TaskModuleRequest): Promise<TaskModuleResponse> {
-    // Called when the user selects an options from the displayed HeroCard or
-    // AdaptiveCard.  The result is the action to perform.
-
-    console.log(`WE ARE HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEERE`);
-
     const cardTaskFetchValue = taskModuleRequest.data.data;
     var taskInfo = {
       url: "https://m365playgrcb3596tab.z5.web.core.windows.net/index.html#/tab",
