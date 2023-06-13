@@ -134,8 +134,8 @@ export class TeamsBot extends TeamsActivityHandler {
 
     const cardTaskFetchValue = taskModuleRequest.data.data;
     var taskInfo = {
-      url: "https://www.bing.com/",
-      fallbackUrl: "https://www.bing.com/",
+      url: "https://m365playgrcb3596tab.z5.web.core.windows.net/index.html#/tab",
+      fallbackUrl: "https://m365playgrcb3596tab.z5.web.core.windows.net/index.html#/tab",
       height: 510,
       width: 450,
       title: "A Task Module",

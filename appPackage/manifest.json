@@ -42,6 +42,10 @@
                     ],
                     "commands": [
                         {
+                            "title": "frame",
+                            "description": "Test frameContext in dialog"
+                        },
+                        {
                             "title": "welcome",
                             "description": "Resend welcome card of this Bot"
                         },
@@ -56,10 +60,20 @@
     ],
     "composeExtensions": [],
     "configurableTabs": [],
-    "staticTabs": [],
+    "staticTabs": [
+        {
+          "entityId": "com.microsoft.teams.taskmodule.statictab",
+          "name": "Tasks!",
+          "contentUrl": "https://m365playgrcb3596tab.z5.web.core.windows.net/index.html#/tab",
+          "websiteUrl": "https://m365playgrcb3596tab.z5.web.core.windows.net/index.html#/tab",
+          "scopes": [
+            "personal"
+          ]
+        }
+      ],
     "permissions": [
         "identity",
         "messageTeamMembers"
     ],
-    "validDomains": []
+    "validDomains": ["localhost:3978", "m365playgrcb3596tab.z5.web.core.windows.net"]
 }
