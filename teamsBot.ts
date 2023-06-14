@@ -142,7 +142,7 @@ export class TeamsBot extends TeamsActivityHandler {
         value: taskInfo,
       }
     });
-}  
+  }  
 
   // Invoked when an action is taken on an Adaptive Card. The Adaptive Card sends an event to the Bot and this
   // method handles that event.
